@@ -113,3 +113,28 @@ section {
     transform: translateY(0);
     box-shadow: none;
 }
+
+.social-media {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0,.1);
+}
+
+.social-media i {
+    font-size: 3rem;
+}
+.fa-linkedin {
+    color: #3b5999;
+}
+.fa-github-square {
+    color: #000000;
+}
+.fa-google {
+    color: #e6683c;
+}
+
+@media screen and (min-width: 700px)
